@@ -4,7 +4,7 @@ import model.Administrador;
 
 import java.util.Scanner;
 
-public class main {
+public class App {
     static void main() {
         System.out.println("Hello World");
         Administrador a = new Administrador();
