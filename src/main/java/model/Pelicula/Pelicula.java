@@ -1,6 +1,4 @@
-package model;
-
-import java.util.ArrayList;
+package model.Pelicula;
 
 public class Pelicula {
     private String titulo;

@@ -1,23 +1,23 @@
 package application;
 
-import model.Administrador;
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.scene.layout.AnchorPane;
+import javafx.stage.Stage;
+import utils.Paths;
 
-import java.util.Scanner;
-
-public class App {
+public class App extends Application {
     static void main() {
-        System.out.println("Hello World");
-        Administrador a = new Administrador();
-        Scanner sc = new Scanner(System.in);
-        System.out.println("nombres: ");
-        a.setNombres(sc.nextLine());
-        System.out.println("apellidos: ");
-        a.setApellidos(sc.nextLine());
-        System.out.println("username: ");
-        a.setUsername(sc.nextLine());
-        System.out.println("password: ");
-        a.setPassword(sc.nextLine());
-        System.out.println(a.getNombres() + " " +a.getApellidos()+ " " +a.getUsername() + " " +a.getPassword());
+        launch();
+    }
+
+    @Override
+    public void start(Stage stage) throws Exception {
+        AnchorPane load = FXMLLoader.load(getClass().getResource(Paths.LOGIN));
+        Scene scene = new Scene(load);
+        stage.setScene(scene);
+        stage.show();
     }
 }
 

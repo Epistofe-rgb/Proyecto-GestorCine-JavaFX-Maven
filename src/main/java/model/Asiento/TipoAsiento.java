@@ -1,4 +1,4 @@
-package model;
+package model.Asiento;
 
 // TipoAsiento.java
 public enum TipoAsiento {

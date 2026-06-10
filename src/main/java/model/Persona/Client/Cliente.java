@@ -1,6 +1,8 @@
-package model;
+package model.Persona.Client;
 
-public class Cliente extends  Persona {
+import model.Persona.Persona;
+
+public class Cliente extends Persona {
     private String telefono;
     private String cedula;
     private String direccion;

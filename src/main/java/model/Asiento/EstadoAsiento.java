@@ -1,4 +1,4 @@
-package model;
+package model.Asiento;
 
 // EstadoAsiento.java
 public enum EstadoAsiento {

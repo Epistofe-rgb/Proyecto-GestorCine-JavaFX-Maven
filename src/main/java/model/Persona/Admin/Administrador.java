@@ -1,4 +1,6 @@
-package model;
+package model.Persona.Admin;
+
+import model.Persona.Persona;
 
 public class Administrador extends Persona {
     private String username;

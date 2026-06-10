@@ -1,4 +1,4 @@
-package model;
+package model.Asiento;
 public class Asiento {
     public enum TipoAsiento {
         ESTANDAR,

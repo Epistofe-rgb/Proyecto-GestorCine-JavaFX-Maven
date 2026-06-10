@@ -1,4 +1,6 @@
-package model;
+package model.Sala;
+
+import model.Boleto.Boleto;
 
 import java.util.ArrayList;
 
