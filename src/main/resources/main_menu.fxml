@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="657.0" prefWidth="978.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainMenuController">
+   <children>
+      <Pane prefHeight="661.0" prefWidth="222.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2a2b37" height="670.0" layoutY="-7.0" stroke="BLACK" strokeType="INSIDE" width="222.0" />
+            <Button layoutX="9.0" layoutY="146.0" mnemonicParsing="false" onAction="#ventana_cliente" prefHeight="46.0" prefWidth="205.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="Hacia los clientes" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="9.0" layoutY="200.0" mnemonicParsing="false" onAction="#ventana_boleteria" prefHeight="46.0" prefWidth="205.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="Hacia la boleteria " textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="9.0" layoutY="252.0" mnemonicParsing="false" onAction="#ventana_facturas" prefHeight="46.0" prefWidth="205.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="Hacia las facturas " textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="9.0" layoutY="304.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="205.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="Button" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="18.0" />
+               </font></Button>
+            <Button layoutX="9.0" layoutY="601.0" mnemonicParsing="false" onAction="#cerrar_sesion" prefHeight="46.0" prefWidth="205.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="Cerra Sesion" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB Bold" size="18.0" />
+               </font></Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
