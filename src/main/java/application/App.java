@@ -16,6 +16,8 @@ public class App extends Application {
     public void start(Stage stage) throws Exception {
         AnchorPane load = FXMLLoader.load(getClass().getResource(Paths.LOGIN));
         Scene scene = new Scene(load);
+        scene.getStylesheets().add(getClass().getResource("/css/styles.css").toExternalForm());
+        stage.setTitle("Sistema Cine - Login");
         stage.setScene(scene);
         stage.show();
     }

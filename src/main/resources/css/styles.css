@@ -1,0 +1,13 @@
+/* styles.css */
+.button {
+    -fx-background-color: #4CAF50;   /* verde */
+    -fx-text-fill: white;            /* texto blanco */
+    -fx-font-size: 14px;             /* tamaño de fuente */
+    -fx-font-weight: bold;           /* negrita */
+    -fx-background-radius: 8;        /* bordes redondeados */
+    -fx-padding: 8 16 8 16;          /* espacio interno */
+}
+
+.button:hover {
+    -fx-background-color: #45a049;   /* color más oscuro al pasar el mouse */
+}

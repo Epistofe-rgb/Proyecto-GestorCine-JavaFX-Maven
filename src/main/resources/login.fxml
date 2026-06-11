@@ -6,19 +6,18 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.effect.BoxBlur?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.shape.Rectangle?>
 
 
 <AnchorPane prefHeight="657.0" prefWidth="978.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
    <children>
-      <Pane prefHeight="698.0" prefWidth="1048.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1100" height="346.0" layoutX="296.0" layoutY="156.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="387.0">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2a2b37" height="657.0" stroke="BLACK" strokeType="INSIDE" width="978.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9a8a88" height="346.0" layoutX="296.0" layoutY="156.0" opacity="0.09" stroke="BLACK" strokeType="INSIDE" width="387.0">
          <effect>
-            <BoxBlur height="3.0" iterations="2" width="3.0" />
+            <BoxBlur height="3.0" iterations="3" width="3.0" />
          </effect>
       </Rectangle>
-      <Label layoutX="475.0" layoutY="170.0" text="Label" />
+      <Label layoutX="475.0" layoutY="170.0" text="Label" textFill="#fffefe" />
       <Button fx:id="btn_login" layoutX="336.0" layoutY="421.0" mnemonicParsing="false" onAction="#login_Administrador" prefHeight="25.0" prefWidth="307.0" text="Login" />
       <TextField fx:id="txt_username" layoutX="336.0" layoutY="263.0" prefHeight="25.0" prefWidth="307.0" promptText="Username" />
       <TextField fx:id="txt_password" layoutX="336.0" layoutY="317.0" prefHeight="25.0" prefWidth="307.0" promptText="Password" />

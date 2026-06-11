@@ -3,13 +3,23 @@ package model.Persona.Admin;
 import model.Persona.Persona;
 
 public class Administrador extends Persona {
+    private int id;
     private String username;
     private String password;
 
-    public Administrador(String nombres, String apellidos, String username, String password) {
+    public Administrador(int id ,String nombres, String apellidos, String username, String password) {
         super(nombres, apellidos);
+        this.id = id;
         this.username = username;
         this.password = password;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public Administrador() {
@@ -30,6 +40,4 @@ public class Administrador extends Persona {
     public void setPassword(String password) {
         this.password = password;
     }
-
-
 }
