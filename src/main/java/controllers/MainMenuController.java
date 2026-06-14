@@ -2,7 +2,12 @@ package controllers;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.layout.Pane;
+import utils.Paths;
+
+import java.io.IOException;
 
 public class MainMenuController {
     @FXML
@@ -14,13 +19,15 @@ public class MainMenuController {
     }
 
     @FXML
-    void ventana_boleteria(ActionEvent event) {
-
+    void ventana_boleteria(ActionEvent event) throws IOException {
+        Parent vistaBoleteria = FXMLLoader.load(getClass().getResource(Paths.BOLETERIA_MENU));
+        contenedorCentral.getChildren().setAll(vistaBoleteria);
     }
 
     @FXML
-    void ventana_cliente(ActionEvent event) {
-
+    void ventana_cliente(ActionEvent event) throws IOException {
+        Parent vistaCliente = FXMLLoader.load(getClass().getResource(Paths.CLIENTE_MENU));
+        contenedorCentral.getChildren().setAll(vistaCliente);
     }
 
     @FXML
@@ -28,4 +35,8 @@ public class MainMenuController {
 
     }
 
+    public void cambioScene(String path) throws IOException {
+        Parent vistaCargada = FXMLLoader.load(getClass().getResource(path));
+        contenedorCentral.getChildren().setAll(vistaCargada);
+    }
 }

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
 
 <AnchorPane prefHeight="657.0" prefWidth="978.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ClienteMenuController">
-
+   <children>
+      <Label layoutX="319.0" layoutY="142.0" text="CLIENTE MENU HOLA" />
+   </children>
 </AnchorPane>
