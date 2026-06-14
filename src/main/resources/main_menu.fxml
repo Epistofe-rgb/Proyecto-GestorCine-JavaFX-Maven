@@ -6,33 +6,33 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="657.0" prefWidth="978.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainMenuController">
+<AnchorPane prefHeight="854.0" prefWidth="1308.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainMenuController">
    <children>
-      <Pane prefHeight="661.0" prefWidth="222.0">
+      <Pane prefHeight="854.0" prefWidth="222.0">
          <children>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2a2b37" height="670.0" layoutY="-7.0" stroke="BLACK" strokeType="INSIDE" width="222.0" />
-            <Button layoutX="9.0" layoutY="146.0" mnemonicParsing="false" onAction="#ventana_cliente" prefHeight="46.0" prefWidth="205.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="Hacia los clientes" textFill="WHITE">
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2a2b37" height="863.0" layoutY="-7.0" stroke="BLACK" strokeType="INSIDE" width="222.0" />
+            <Button layoutX="9.0" layoutY="191.0" mnemonicParsing="false" onAction="#ventana_cliente" prefHeight="9.0" prefWidth="205.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="Clientes" textFill="WHITE">
                <font>
-                  <Font name="Berlin Sans FB Bold" size="18.0" />
+                  <Font name="Corbel" size="15.0" />
                </font></Button>
-            <Button layoutX="9.0" layoutY="200.0" mnemonicParsing="false" onAction="#ventana_boleteria" prefHeight="46.0" prefWidth="205.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="Hacia la boleteria " textFill="WHITE">
+            <Button layoutX="9.0" layoutY="150.0" mnemonicParsing="false" onAction="#ventana_boleteria" prefHeight="9.0" prefWidth="205.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="Boleteria" textFill="WHITE">
                <font>
-                  <Font name="Berlin Sans FB Bold" size="18.0" />
+                  <Font name="Corbel" size="15.0" />
                </font></Button>
-            <Button layoutX="9.0" layoutY="252.0" mnemonicParsing="false" onAction="#ventana_facturas" prefHeight="46.0" prefWidth="205.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="Hacia las facturas " textFill="WHITE">
+            <Button layoutX="9.0" layoutY="230.0" mnemonicParsing="false" onAction="#ventana_facturas" prefHeight="9.0" prefWidth="205.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="Facturas" textAlignment="CENTER" textFill="WHITE">
                <font>
-                  <Font name="Berlin Sans FB Bold" size="18.0" />
+                  <Font size="15.0" />
                </font></Button>
-            <Button layoutX="9.0" layoutY="304.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="205.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="Button" textFill="WHITE">
+            <Button layoutX="9.0" layoutY="272.0" mnemonicParsing="false" prefHeight="9.0" prefWidth="205.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="Button" textFill="WHITE">
                <font>
-                  <Font name="Berlin Sans FB Bold" size="18.0" />
+                  <Font size="15.0" />
                </font></Button>
-            <Button layoutX="9.0" layoutY="601.0" mnemonicParsing="false" onAction="#cerrar_sesion" prefHeight="46.0" prefWidth="205.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="Cerra Sesion" textFill="WHITE">
+            <Button layoutX="9.0" layoutY="807.0" mnemonicParsing="false" onAction="#cerrar_sesion" prefHeight="9.0" prefWidth="205.0" style="-fx-background-color: transparent; -fx-border-color: white;" text="Cerra Sesion" textFill="WHITE">
                <font>
-                  <Font name="Berlin Sans FB Bold" size="18.0" />
+                  <Font size="15.0" />
                </font></Button>
          </children>
       </Pane>
-      <Pane fx:id="contenedorCentral" layoutX="222.0" prefHeight="661.0" prefWidth="756.0" />
+      <Pane fx:id="contenedorCentral" layoutX="222.0" prefHeight="854.0" prefWidth="1087.0" />
    </children>
 </AnchorPane>
